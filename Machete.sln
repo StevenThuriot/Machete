@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Machete", "Machete\Machete.csproj", "{1BE25BBE-4F69-4DC6-A0D9-EA2FE32793FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Machete.Metadata", "Machete.Metadata\Machete.Metadata.csproj", "{59F1D72A-535A-4E12-BD60-CBF6FAEC7506}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Machete.Server", "Machete.Server\Machete.Server.csproj", "{15B3E0D2-6217-493A-A690-158C497F5318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Machete.Contracts", "Machete.Contracts\Machete.Contracts.csproj", "{DB1A2368-D247-444A-9147-86DA799B93A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BE25BBE-4F69-4DC6-A0D9-EA2FE32793FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE25BBE-4F69-4DC6-A0D9-EA2FE32793FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE25BBE-4F69-4DC6-A0D9-EA2FE32793FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE25BBE-4F69-4DC6-A0D9-EA2FE32793FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F1D72A-535A-4E12-BD60-CBF6FAEC7506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F1D72A-535A-4E12-BD60-CBF6FAEC7506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F1D72A-535A-4E12-BD60-CBF6FAEC7506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F1D72A-535A-4E12-BD60-CBF6FAEC7506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB1A2368-D247-444A-9147-86DA799B93A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB1A2368-D247-444A-9147-86DA799B93A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB1A2368-D247-444A-9147-86DA799B93A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB1A2368-D247-444A-9147-86DA799B93A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

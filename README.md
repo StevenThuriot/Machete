@@ -1,0 +1,1 @@
+Machete====* A quick and easy way to bundle several WCF calls to increase performance.* TODO: Add samples and write out this readme.
