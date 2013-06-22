@@ -1,1 +1,1 @@
-Machete====* A quick and easy way to bundle several WCF calls to increase performance.* TODO: Add samples and write out this readme.
+Machete====* A quick and easy way to bundle several WCF calls to increase performance.* TODO: 	* Write out this readme.	* Add samples (Both code and wiki)	* Clean up solution a bit more	* Add documentation	* Cache expression trees on the server	* Investigate security and the possible impact.
