@@ -32,7 +32,7 @@ namespace Machete
     {
         private static readonly ThreadLocal<Stack<MacheteContext>> LocalScopeStack = new ThreadLocal<Stack<MacheteContext>>(() => new Stack<MacheteContext>());
 
-        private readonly Func<IMacheteClientService> _ServiceCreator;
+        private readonly Func<dynamic> _ServiceCreator;
         private readonly Action _DisposeAction;
         private bool _Disposed;
 
@@ -63,7 +63,7 @@ namespace Machete
             _DisposeAction = () => stack.Pop();
         }
 
-        public MacheteContext(Func<IMacheteClientService> serviceCreator)
+        public MacheteContext(Func<dynamic> serviceCreator)
             : this()
         {
             _ServiceCreator = serviceCreator;
@@ -106,7 +106,6 @@ namespace Machete
             {
                 throw new NotSupportedException("Only types marked with Machete attributes can be used.");
             }
-
 
             var bundler = _Bundlers.FirstOrDefault(x => x.ServiceType == serviceType);
 

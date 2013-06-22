@@ -32,7 +32,7 @@ namespace Machete
             get { return new MacheteContext(); }
         }
 
-        public static IDisposable CreateScope(Func<IMacheteClientService> serviceCreator)
+        public static IDisposable CreateScope(Func<dynamic> serviceCreator)
         {
             return new MacheteContext(serviceCreator);
         }

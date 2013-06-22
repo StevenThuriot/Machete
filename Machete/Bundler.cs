@@ -25,14 +25,14 @@ namespace Machete
 {
     internal class Bundler : DynamicObject
     {
+        private readonly List<CallInfo> _Calls;
+
         public string ServiceType { get; private set; }
 
         public IEnumerable<CallInfo> Calls
         {
             get { return _Calls.AsReadOnly(); }
         }
-
-        private readonly List<CallInfo> _Calls;
 
         public Bundler(string serviceType)
         {
